@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 id="demo"></h2>
+    <script>
+        // Constructor function for Person objects
+        function car(car1,car2) {
+            this.a = car1;
+            this.b = car2;
+        }
+
+        // Create a car object
+        const vehicle = new car("Ford","Mustang");
+
+        // Display car
+        document.getElementById("demo").innerHTML =
+            "I have a " + vehicle.a + "," + "It is a " + vehicle.b + ".";
+    </script>
+</body>
+
+</html>
